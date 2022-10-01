@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>berto works</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+      p {
+        font-family: Roboto, Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+           
+      .thumbnail {
+        width: 100%;
+      }
+
+      .search-bar {
+        margin-bottom: 10px; 
+        display: block;               
+      }
+
+      .video-title {
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 5px;
+      }
+
+      .video-info-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      }
+
+      .channel-picture {
+        display: inline-block;
+        width: 50px;
+        object-fit: cover;
+        object-position: center;
+        vertical-align: top;
+      }
+
+      .video-info {
+        display: inline-block;
+        width: 200px;
+      }
+
+      .profile-picture {   
+        width: 40px;
+        border-radius: 50px;
+      }
+
+      .thumbnail-row{
+        margin-bottom: 12px;
+      }
+
+      .author,
+      .stats {
+        font-size: 12px;
+        color: rgb(96, 96, 96);
+      }
+
+      .author{
+        margin-bottom: 4px;
+      }
+
+      .video-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap:40px ;
+      }
+    </style>
+  </head>
+  
+  <body class="body">
+
+    <input class="search-bar" type="text" placeholder="search">
+    <div class="video-grid">
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../images/yuika.webp">
+        </div>
+  
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="../images/chino.jpg">
+          </div>
+  
+          <div class="video-info">
+            <p class="video-title"> Yuika - Sukidakara (Lyric Video)</p>
+            <p class="author">『ユイカ』</p>
+            <p class="stats">39M views &#183;1 years ago</p>
+          </div>
+        </div>  
+      </div> 
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../images/yuru-camp.jpg">
+        </div>
+  
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="../images/rin.png">
+          </div>
+  
+          <div class="video-info">
+            <p class="video-title"> Tokyo Night Riding</p>
+            <p class="author">Shima Rin</p>
+            <p class="stats">1M views &#183;1 weeks ago</p>
+          </div>
+        </div>  
+      </div> 
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../images/juju-sama.jpg"> 
+        </div>
+    
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="../images/marin.png">
+          </div>
+  
+          <div class="video-info">  
+            <p class="video-title">Juju-sama crying to me and Gojou-kun</p>
+            <p class="author">Kitagawa-コスプレ</p>
+            <p class="stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../images/kobo-free.webp"> 
+        </div>
+    
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="../images/kobo-pp.jpg">
+          </div>
+  
+          <div class="video-info">  
+            <p class="video-title">[FREETALK] with princess kobo</p>
+            <p class="author">Kobo Kanaeru Ch. hololive-ID </p>
+            <p class="stats">786K views &#183; 2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../images/waiting-for-rain.webp">
+        </div>
+  
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="../images/minami.jpg">
+          </div>
+  
+          <div class="video-info">
+            <p class="video-title">"Waiting for Rain" - 美波 (Minami) MV</p>
+            <p class="author">Minami</p>
+            <p class="stats">53M views &#183;2 years ago</p>
+          </div>
+        </div>  
+      </div> 
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../images/ao-no-waltz.webp">
+        </div>
+  
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="../images/eve.jpg">
+          </div>
+  
+          <div class="video-info">
+            <p class="video-title"> 蒼のワルツ - Eve MV</p>
+            <p class="author">Eve</p>
+            <p class="stats">29M views &#183;2 years ago</p>
+          </div>
+        </div>  
+      </div> 
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../images/kaze.webp">
+        </div>
+  
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="../images/yoroshika.jpg">
+          </div>
+  
+          <div class="video-info">
+            <p class="video-title">Kaze wo Hamu/風を食む [Yoroshika] </p>
+            <p class="author">ヨルシカ / n-buna Official</p>
+            <p class="stats">11M views &#183;2 years ago</p>
+          </div>
+        </div>  
+      </div> 
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../images/fukuretta.webp">
+        </div>
+  
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="../images/riinu.jpg">
+          </div>
+  
+          <div class="video-info">
+            <p class="video-title">FUKKIRETA/莉犬【歌ってみた】</p>
+            <p class="author">莉犬くん【すとぷり】</p>
+            <p class="stats">5.6M views &#183;2 years ago</p>
+          </div>
+        </div>  
+      </div> 
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../images/tabun.webp"> 
+        </div>
+    
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="../images/YOASOBI.jpg">
+          </div>  
+
+          <div class="video-info">  
+            <p class="video-title">YOASOBI "Probably" Official Music Video</p>
+            <p class="author">Ayase/YOASOBI</p>
+            <p class="stats">71M views &#183; 2 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
